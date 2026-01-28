@@ -245,7 +245,7 @@
             const payload = Object.fromEntries(formData.entries());
 
             try {
-                const response = await fetch('http://bloodme.in/api/organization/join-org', {
+                const response = await fetch('https://bloodme.in/api/organization/join-org', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)
